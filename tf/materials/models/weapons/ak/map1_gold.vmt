@@ -1,12 +1,20 @@
 "VertexLitGeneric"
 {
-	"$basetexture"	"models/weapons/ak/map2"
-	"$basemapalphaphongmask" "1"
+	"$basetexture"	"models/weapons/ak/map1_gold"
 	"$phong" "1"
-	"$phongexponent" "25"
-	"$phongboost" "5"	
-	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongexponent" "115"
+	"$phongboost" "2"	
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
 	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+	"$rimlightboost" ".1"
+
+	"$envmap" "cubemaps/cubemap_gold001"	
+	"$envmaptint" "[2.5 2.5 1.15]"
 
 	"$glowcolor" "1"
 
@@ -19,7 +27,7 @@
 	"$sheenmaptint" 		"[ 1 1 1 ]"
 	"$sheenmapmaskframe" 	"0"
 	"$sheenindex" 		"0"
-	
+
 	"Proxies"
 	{
 		"AnimatedWeaponSheen"
@@ -28,7 +36,7 @@
 			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
 			"animatedtextureframerate" 		"40"
 		}
-		"vm_invis"
+		"invis"
 		{
 		}
 		"ModelGlowColor"
