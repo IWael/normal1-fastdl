@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture"	"models\weapons\c_models\c_csknife\c_csknife"
+	"$basetexture"	"models/weapons/c_models/c_csknife/c_csknife"
 
 	"$phong" "0"
 	"$phongexponent" "25"
